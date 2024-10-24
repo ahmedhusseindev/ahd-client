@@ -18,7 +18,7 @@ const Search = () => {
           className="h-12 grow outline-none border-none pl-2"
         />
       </div>
-      <p className="flex items-center justify-center gap-1 text-lg text-[#ed6c02] italic">
+      <p className="flex items-center justify-center gap-1 md:text-lg text-[#ed6c02] italic">
         <a href="">one step to create your own restaurant</a>
         <ArrowForwardIcon color="warning" />
       </p>
