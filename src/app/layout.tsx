@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
+import Footer from "@/layouts/Footer";
 
 export const metadata: Metadata = {
   title: "Ahd",
@@ -15,7 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <AppRouterCacheProvider>{children} </AppRouterCacheProvider>
+        <AppRouterCacheProvider>
+          {children} <Footer />
+        </AppRouterCacheProvider>
       </body>
     </html>
   );
