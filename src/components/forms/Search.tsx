@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Login from "../buttons/Login";
+import Signup from "../buttons/Signup";
 import logo from "../../images/logo.svg";
 import SearchIcon from "@mui/icons-material/Search";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
@@ -22,6 +24,10 @@ const Search = () => {
         <a href="">one step to create your own restaurant</a>
         <ArrowForwardIcon color="warning" />
       </p>
+      <div className="flex justify-center gap-3">
+        <Login />
+        <Signup />
+      </div>
     </form>
   );
 };

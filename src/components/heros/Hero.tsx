@@ -1,5 +1,5 @@
-import bg from "../../images/hero.jpeg";
 import Search from "../forms/Search";
+import bg from "../../images/hero.jpeg";
 
 const Hero = () => {
   return (
@@ -12,6 +12,7 @@ const Hero = () => {
       className="h-screen flex justify-center items-center"
     >
       <Search />
+      
     </section>
   );
 };

@@ -10,6 +10,8 @@ const Page = () => {
       <Hero />
       <Header title="Collections" />
       <Container />
+      <Header title="Popular restaurant in countery" />
+      <Container />
     </>
   );
 };
